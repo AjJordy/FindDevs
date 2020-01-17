@@ -26,6 +26,8 @@ module.exports = {
 				},
 			},
 		});
+
+		console.log(devs);
 		return resp.json({ devs });
 	}
 }
