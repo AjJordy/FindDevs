@@ -12,8 +12,14 @@ Buscador de desenvolvedores do github baseado na localização
 - Axios
 - Nodemon
 - Yarn
+- Socket.io
 
-`$ yarn dev`
+```
+$ yarn dev
+$ yarn add axios
+$ yarn add express
+$ yarn add socket.io
+```
 
 ### Frontend
 
@@ -30,6 +36,7 @@ $ yarn start
 
 - React Native
 - Expo
+- Socket.io Client
 
 ```
 $ yarn add expo-cli
@@ -41,6 +48,7 @@ $ expo install react-native-gesture-handler react-native-reanimated react-native
 $ expo install react-native-maps  // API do google maps 
 $ expo install expo-location // Receber posição atual do usuário
 $ expo install react-native-webview // Tratar paginas web
+$ yarn add socket.io-client // Websocket
 ```
 
 - `docs.expo.io`
